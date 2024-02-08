@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "codecamp-academy-01": "github:woopackerpat/codecamp-academy-01"
+  },
+  "devDependencies": {
+    "prisma": "^5.8.1"
+  }
+}
