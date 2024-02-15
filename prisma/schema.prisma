@@ -12,10 +12,10 @@ datasource db {
 
 model User {
   id              Int               @id @default(autoincrement())
-  name            String?
-  email           String            @unique
-  phone           String?
-  password        String
+  username        String            @db.VarChar(150) @unique
+  password        String            @db.VarChar(72)
+  email           String?
+  phone           String
   order           Order[]
   ServiceProvider ServiceProvider[]
   Ststem          Ststem[]
